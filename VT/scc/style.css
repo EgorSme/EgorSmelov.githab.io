@@ -1,0 +1,65 @@
+h2
+{
+    color: cyan;
+}
+body
+{
+    background-color:red;
+    margin: 0;
+    padding: 0;
+}
+footer
+{
+    background-color: blue;
+    border-top: solid 4px yellow;
+    border: 10px solid transparent;
+}
+header
+{
+    background-color:darkslateblue;
+
+}
+main
+{
+    background-color:chocolate;
+
+}
+h1,h2,h3,h4,h5,h6
+{
+    margin: 0;
+}
+ul
+{
+    margin: 0;
+}
+a
+{
+    text-decoration: none;
+}
+html
+{
+    margin: 0;
+    padding: 0;
+}
+.padding-text
+{
+    padding: 10px;
+}
+li a
+{
+    color:orangered;
+}
+h2
+{
+    text-shadow: 2px 2px 3px red;
+
+}
+.custom-button
+{
+    background-color: red;
+    color: gold;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
