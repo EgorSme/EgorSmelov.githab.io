@@ -7,6 +7,11 @@ body
     background-color:red;
     margin: 0;
     padding: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    height: 100%;
 }
 footer
 {
@@ -31,6 +36,10 @@ h1,h2,h3,h4,h5,h6
 ul
 {
     margin: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: baseline;
 }
 a
 {
@@ -40,6 +49,7 @@ html
 {
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 .padding-text
 {
@@ -62,4 +72,25 @@ h2
     border: none;
     border-radius: 10px;
     cursor: pointer;
+}
+.forform
+{
+    height: 100px;
+    width: 200px;
+    background-color: blueviolet;    
+}
+.wrapper{
+    width: 80%;
+    margin: 0 auto;
+    padding-left: 5px;
+    background-color: goldenrod;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    }
+.flex
+{
+    flex:1
 }
